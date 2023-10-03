@@ -1,0 +1,55 @@
+2023-09-04 12:22:52 [main] INFO  : Could not detect default configuration classes for test class [com.maveric.csp.serviceimpl.SessionServiceImplTest]: SessionServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-09-04 12:22:52 [main] INFO  : Found @SpringBootConfiguration com.maveric.csp.CspApplication for test class com.maveric.csp.serviceimpl.SessionServiceImplTest
+2023-09-04 12:22:53 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.1.Final
+2023-09-04 12:22:53 [main] INFO  : Starting SessionServiceImplTest using Java 17.0.6 with PID 16340 (started by purushothamp in D:\csp\parent\csp)
+2023-09-04 12:22:53 [main] DEBUG : Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-09-04 12:22:53 [main] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-09-04 12:22:55 [main] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-04 12:22:56 [main] INFO  : Finished Spring Data repository scanning in 398 ms. Found 3 JPA repository interfaces.
+2023-09-04 12:22:56 [main] INFO  : BeanFactory id=2073a6c8-47a2-3d9c-b3ba-e657a6288f27
+2023-09-04 12:23:00 [main] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-04 12:23:00 [main] INFO  : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-09-04 12:23:00 [main] INFO  : HHH000406: Using bytecode reflection optimizer
+2023-09-04 12:23:01 [main] INFO  : HHH000021: Bytecode provider name : bytebuddy
+2023-09-04 12:23:01 [main] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-04 12:23:01 [main] INFO  : HikariPool-1 - Starting...
+2023-09-04 12:23:01 [main] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@169d4aba
+2023-09-04 12:23:01 [main] INFO  : HikariPool-1 - Start completed.
+2023-09-04 12:23:01 [main] WARN  : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-09-04 12:23:02 [main] INFO  : HHH000021: Bytecode provider name : bytebuddy
+2023-09-04 12:23:03 [main] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-04 12:23:04 [main] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-04 12:23:05 [main] INFO  : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-09-04 12:23:07 [main] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-04 12:23:09 [main] INFO  : Eureka HTTP Client uses RestTemplate.
+2023-09-04 12:23:09 [main] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-04 12:23:09 [main] INFO  : Setting initial instance status as: STARTING
+2023-09-04 12:23:09 [main] INFO  : Initializing Eureka in region us-east-1
+2023-09-04 12:23:09 [main] INFO  : Resolving eureka endpoints via configuration
+2023-09-04 12:23:09 [main] INFO  : Disable delta property : false
+2023-09-04 12:23:09 [main] INFO  : Single vip registry refresh property : null
+2023-09-04 12:23:09 [main] INFO  : Force full registry fetch : false
+2023-09-04 12:23:09 [main] INFO  : Application is null : false
+2023-09-04 12:23:09 [main] INFO  : Registered Applications size is zero : true
+2023-09-04 12:23:09 [main] INFO  : Application version is -1: true
+2023-09-04 12:23:09 [main] INFO  : Getting all instance registry info from the eureka server
+2023-09-04 12:23:10 [main] INFO  : The response status is 200
+2023-09-04 12:23:10 [main] INFO  : Starting heartbeat executor: renew interval is: 30
+2023-09-04 12:23:10 [main] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-09-04 12:23:10 [main] INFO  : Discovery Client initialized at timestamp 1693810390860 with initial instances count: 1
+2023-09-04 12:23:10 [main] INFO  : Registering application CSP-SERVICE with eureka with status UP
+2023-09-04 12:23:10 [main] INFO  : Saw local status change event StatusChangeEvent [timestamp=1693810390877, current=UP, previous=STARTING]
+2023-09-04 12:23:10 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CSP-SERVICE/MAVLT1462.mavericsystems.lan:CSP-SERVICE: registering service...
+2023-09-04 12:23:10 [main] INFO  : Started SessionServiceImplTest in 17.835 seconds (process running for 20.915)
+2023-09-04 12:23:11 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CSP-SERVICE/MAVLT1462.mavericsystems.lan:CSP-SERVICE - registration status: 204
+2023-09-04 12:23:11 [SpringApplicationShutdownHook] INFO  : Unregistering application CSP-SERVICE with eureka with status DOWN
+2023-09-04 12:23:11 [SpringApplicationShutdownHook] INFO  : Saw local status change event StatusChangeEvent [timestamp=1693810391991, current=DOWN, previous=UP]
+2023-09-04 12:23:11 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CSP-SERVICE/MAVLT1462.mavericsystems.lan:CSP-SERVICE: registering service...
+2023-09-04 12:23:12 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CSP-SERVICE/MAVLT1462.mavericsystems.lan:CSP-SERVICE - registration status: 204
+2023-09-04 12:23:12 [SpringApplicationShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-04 12:23:12 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2023-09-04 12:23:12 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2023-09-04 12:23:12 [SpringApplicationShutdownHook] INFO  : Shutting down DiscoveryClient ...
+2023-09-04 12:23:15 [SpringApplicationShutdownHook] INFO  : Unregistering ...
+2023-09-04 12:23:15 [SpringApplicationShutdownHook] INFO  : DiscoveryClient_CSP-SERVICE/MAVLT1462.mavericsystems.lan:CSP-SERVICE - deregister  status: 200
+2023-09-04 12:23:15 [SpringApplicationShutdownHook] INFO  : Completed shut down of DiscoveryClient
